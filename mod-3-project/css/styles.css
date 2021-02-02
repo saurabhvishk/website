@@ -1,0 +1,151 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #b0b8b4ff;
+  font-family: 'Oxygen', sans-serif;
+  /*padding-top: 150px;*/
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #184a45ff;
+  border-radius: 0;
+  border: 0;
+  min-height: 100px;
+}
+
+.navbar-brand {
+  padding-top: 35px;
+  /*vertical-align: middle;*/ 
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  /*font-family: 'Lora', serif;*/
+  color: #000;
+  font-size: 2em;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #666;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 0;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+/*#nav-list a span {
+  font-size: 1.8em;
+}*/
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+/* END HEADER */
+
+/* MAIN CONTENT */
+
+#title-main-content h2{
+  font-weight: bold;
+}
+
+#main-content {
+  margin-top: 20px;
+  background-color: #fc796aff;
+  border: 1px;
+  border-radius: 15px;
+}
+
+/* END MAIN CONTENT */*/
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* MAIN CONTENT */
+#title-main-content {
+  padding: 40px;
+}
+#hamburger{
+  clear: both;
+  margin-top: -50px;
+  }
+
+/* END MAIN CONTENT */
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Brand */
+    padding-top: 25px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+    /*margin-left: 40px;*/
+  }
+  #hamburger{
+  clear: both;
+  margin-top: -50px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    /*background-color: grey;*/
+  }
+ 
+  #collapsable-nav{
+    background-color: #fc766aff;
+
+  }
+
+  /* End Header */
+  /* MAIN CONTENT */
+  #title-main-content {
+  padding: 40px;
+  }
+
+
+  /* END MAIN CONTENT */
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+
+  .navbar-brand h1 { /* Brand */
+    padding-top: 25px;
+    font-size: 8vw; /* 1vw = 1% of viewport width */
+    /*margin-left: 40px;*/
+  }
+  /* End Header */
+  
+  /* MAIN CONTENT */
+  
+  #title-main-content {
+  padding: 40px;
+  /* END MAIN CONTENT */
+}
+}
+
